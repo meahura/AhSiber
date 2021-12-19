@@ -14,7 +14,11 @@ You can see my skills in open source projects.
 My skills : 
 <font>
 <p>
-python , ruby , css , html , network.  
+<img src="https://img.shields.io/amo/stars/Python?label=Python&logo=python&style=flat-square"> 
+<img src="https://img.shields.io/amo/stars/aho?color=%23ec1e1e&label=ruby"> 
+<img src="https://img.shields.io/amo/stars/aho?color=2&label=CSS"> 
+<img src="https://img.shields.io/amo/stars/aho?color=f30c0c&label=Html" 
+> 
 </p>
 <font face="tahoma"> 
 contact us : 
@@ -27,5 +31,4 @@ contact us :
 <a href="http://newsprogarmming.blogspot.com">WebLOg </a> 
 </p>
 The End : Be sure to follow and be successful
-
 <hr> 
