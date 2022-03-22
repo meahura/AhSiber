@@ -1,1 +1,1 @@
-# <img style="width: 45px;"  src="hello.gif" alt="IMEG NOT FONT !!">[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=5EFF84&lines=Welcome+to+the+Ahura+github+page;Please+faw+me+at+GitHub.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=35&lines=Welcome+to+Ahura's+GitHub+page;Please+faw+me+at+GitHub.)](https://git.io/typing-svg)
