@@ -1,0 +1,481 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background: #f4f4f4;
+    scroll-behavior: auto;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* font face iranin to page and English */
+@font-face {
+    font-family: 'b-yekan';
+    src: url('fonts/iranin/yekan.ttf') format('truetype');
+    src: url('fonts/iranin/yekan.eot') format('eot');
+    src: url('fonts/iranin/yekan.woff') format('woff');
+}
+
+/* font English tp page */
+@font-face {
+    font-family: 'dragon';
+    src: url('fonts/English/Deron-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'dragon-sloid';
+    src: url('fonts/English/Deron-ThinItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Arez';
+    src: url('fonts/iranin/Araz-Persian-Font.ttf');
+}
+
+
+@font-face {
+    font-family: 'sahel';
+    src: url('font/Sahel.ttf') format('truetype');
+    src : url('font/Sahel.eot') format('eot');
+    src: url('font/Sahel.woff') format('woff');
+    src: url('font/Sahel.woff2') format('woff2');
+}
+
+*::selection{
+    background-color: #ffd900b7;
+    color: black;
+}
+
+
+ul li {
+    font-size: 20px;
+    font-family: 'dragon';
+    display: inline-block;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 10px;
+    font-weight: bold;
+    position: relative;
+    text-transform: capitalize;
+    z-index: 100;
+    color: white;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+ul li:hover a{
+    color: white;
+    transition: 0.3s;
+}
+
+main{
+    background-color: #20dd69de;
+    margin-top: 20px;
+}
+
+/* header page */
+
+#header-page:not(.contect){
+    background-color: #20dd69de;
+    box-shadow: 1px 0px 20px 10px #20dd6975;
+    position: fixed;
+    width: 100%;
+}
+
+/* avater me */
+#avatar-main{
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+    padding: 0px;
+    border-radius: 15px;
+    width: 290px !important;
+    height: 290px;
+    transition: 0.3s;
+}
+
+#avatar-main:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 50px;
+    opacity: 0.9;
+}
+
+
+
+.title-bio-graphy {
+    font-size: x-large;
+}
+
+.i-am{
+    line-height: 25px;
+    color: #3d4042;
+}
+
+.i-am::before{
+    content: '”';
+    font-size: 18px;
+}
+.i-am::after{
+    content: '“';
+    font-size: 18px;
+}
+
+.biographu{
+    font-family: 'sahel';
+    width: fit-content;
+    text-align: justify;
+    padding: 30px;
+    direction: rtl;
+    border-radius: 8px;
+    display: block;
+    margin: 10px auto;
+    max-width: 600px;
+}
+
+    .fa-telegram{
+        font-size: 25px;
+        animation: tou-telegram 1s infinite;
+        color: #18b4f1ad;
+        transition: 0.3s;
+    }
+
+    @keyframes tou-telegram{
+        0% {box-shadow: 1px 1px 1px #0000ff81; border-radius: 100px;padding: 10px;}
+        100% {box-shadow:  2px 1px 12px #0000ff69; border-radius: 100px; padding: 10px;}
+    }
+
+    .fa-telegram:hover{
+        color: white;
+        transition: 0.3s;
+        background-color: #0051ff98;
+    }
+/* --------------------------- */
+    .fa-youtube{
+        font-size: 25px;
+        color: #ff0000b9;
+        animation: youtubeee 1s infinite;
+        transition: 0.3s;
+    }
+
+    .fa-youtube:hover{
+        color: white;
+        background-color: red;
+        transition: 0.3s;
+    }
+
+    @keyframes youtubeee {
+        0% {box-shadow: 1px 1px 1px #ff000093; border-radius: 100px;padding: 10px;}
+        100% {box-shadow:  2px 1px 12px #ff000041; border-radius: 100px; padding: 10px;}
+    }
+/* --------------------------------------- */
+    .fa-twitter{
+        font-size: 25px;
+        color: #0167ffb4;
+        animation: twi 1s infinite;
+        transition: 0.3s;
+        transform: rotate(10deg);
+    }
+
+
+    .fa-twitter:hover{
+        color: white;
+        background-color: #0167ff8a;
+        transition: 0.3s;
+
+    }
+    @keyframes twi {
+        0% {box-shadow: 1px 1px 1px #0000ffb7; border-radius: 100px;padding: 10px;}
+        100% {box-shadow:  2px 1px 12px #0000ff57; border-radius: 100px; padding: 10px;}
+    }
+/* ------------------------------- */
+    .fa-github{
+        font-size: 25px;
+        color: #000000da;
+        animation: git 1s infinite;
+        transition: 0.3s;
+    }
+
+    .fa-github:hover{
+        color: white;
+        transition: 0.3s;
+        background-color:#000000d7;
+    }
+
+    @keyframes git {
+        0% {box-shadow: 1px 1px 1px black; border-radius: 100px;padding: 10px;}
+        100% {box-shadow:  2px 1px 12px #00000054; border-radius: 100px; padding: 10px;}
+    }
+
+    .fa-location-dot{
+        font-size: 25px;
+        color: #000000da;
+        animation: localshan 1s infinite;
+        transition: 0.3s;
+    }
+
+    .fa-location-dot:hover{
+        color: white;
+        background-color: springgreen;
+        transition: 0.4s;
+    }
+
+    @keyframes localshan {
+        0% {box-shadow: 1px 1px 1px #0fd45b; border-radius: 100px;padding: 10px;}
+        100% {box-shadow:  2px 1px 12px #0fd45b4f; border-radius: 100px; padding: 10px;}
+    }
+
+
+a{
+    color: #3d4042;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+blockquote{
+    padding-right: 4px;
+    border-right: 3px solid #2196F3;
+    border-radius: 4px;
+    clear: both;
+    font-family: 'sahel';
+}
+
+
+.attchment{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 300px;
+    margin: 0px auto;
+    margin-top: 30px;
+    border-radius: 4px;
+
+}
+
+.progressss{
+    background-color: white;
+    width: 350px;
+    padding: 0px;
+    display: block;
+    margin: 10px auto;
+    border: none;
+}
+
+.progressss::-webkit-progress-value{
+    background-color: #00BFFF;
+}
+
+.progressss::-webkit-progress-bar{
+    background-color: snow;
+}
+
+.html-and-css{
+    text-indent: 40%;
+    padding: 10px;
+    font-family: dragon;
+    font-weight: bold;
+}
+
+.html-and-css:invalid{
+    background-color: #2196F3;
+}
+
+.fa-html5{
+    color: red;
+}
+
+.fa-python{
+    color: #000cb463;
+}
+
+.fa-network-wired{
+    color: slategray;
+}
+.fa-database{
+    color: gold;
+}
+
+.prokect{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+    font-family: 'Arez';
+    position: relative;
+}
+
+    #conent{
+        font-family: 'Arez';
+        font-size:40px;
+        text-align: center;
+        color: #3d4042;
+    }
+
+.fa-envelope{
+    color: #2196F3;
+    animation: gmail-rover 1s infinite;
+    transition: 0.3s;
+}
+
+    .fa-envelope:hover{
+        color: white;
+        transition: 0.3s;
+        background-color: #2195f39a;
+    }
+
+    @keyframes  gmail-rover{
+        0% {box-shadow: 1px 1px 1px #0000ff81; border-radius: 100px;padding: 10px;}
+        100% {box-shadow:  2px 1px 12px #0000ff69; border-radius: 100px; padding: 10px;}
+    }
+
+
+#gamil{
+    position: absolute;
+    bottom: 212px;
+    left:560px;
+    font-family: 'dragon';
+}
+
+
+.fa-github,.fa-telegram,.fa-twitter,.fa-youtube,.fa-envelop{
+    display: inline-block;
+    margin-top: 5px;
+    font-size: large !important;
+}
+
+#ver-and{
+    text-align: center;
+    display: block;
+}
+
+img {
+    border-radius: 12px;
+    width: 200px;
+    height: 150px;
+}
+
+.text-cover{
+    font-size: 20px;
+    background-color: #ffff00b7;
+    padding: 4px;
+    border-radius: 12px;
+    color: rgba(0, 0, 0, 0.76);
+    text-align: center;
+}
+
+.imges-cover{
+    position: relative;
+    float: left;
+    border: 1px solid black;
+
+    direction: rtl;
+
+    margin-left: 20px;
+    margin-right: auto;
+    display: block;
+    border: none;
+    margin-top: 20px;
+    z-index: 2;
+    transition: 0.2s;
+}
+
+.imges-cover:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.text-cover:hover{
+    background-color: #2196F3;
+    transition: 0.4s;
+    color: white;
+}
+
+.fa-php{
+    color:rgba(62, 62, 235, 0.836);
+}
+
+.fa-house-chimney{
+    border-radius: 0px;
+}
+
+.toltip{
+    position: relative;
+    display: inline-block;
+}
+
+.toltip .toltip-text{
+    display: none;
+    width: 150px;
+    background-color: #ffffffbd;
+    border: black;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top:145%;
+    margin-left: -70px;
+}
+
+.toltip .toltip-text::after {
+    content: "";
+    position: absolute;
+    top: -76%;
+    left: 45%;
+    transform: rotate(180deg);
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+   }
+
+   .toltip:hover .toltip-text {
+    display: block;
+   }
+
+
+@media screen and (min-height:802px){
+
+    .biographu{
+        width: 290px;
+    }
+}
