@@ -147,8 +147,6 @@ header .artcal{
    width: 100%;
 
    position: absolute;
-   /* top: 65%; */
-   /* right: 0px; */
    display: block;
    z-index: 100;
    overflow: auto;
@@ -174,6 +172,12 @@ a{
 }
 
 
+main {
+   display: flex;
+   flex-direction: row;
+   flex-wrap:wrap-reverse;
+   justify-content: center;
+}
 
 @media only screen and (max-width:446px){
 
