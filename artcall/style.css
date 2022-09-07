@@ -20,11 +20,12 @@ body {
    display: flex;
    flex-wrap: wrap;
    flex-direction: row;
-   align-items: center;
-   justify-content: center;
+   align-items: flex-start;
+   justify-content:center;
    background-color: #f4f4f4;
    max-width: 95pc;
    height: 700px;
+   margin: auto;
 }
 
 
@@ -83,4 +84,12 @@ body {
 .styleshet-boxing:hover {
    transform: scale(1.050);
    transition: 0.3s;
+}
+
+.clock-text{
+   font-family: 'peyda';
+   color: black;
+   position: absolute;
+   bottom: 10px;
+   right: 10px;
 }
