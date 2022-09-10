@@ -232,7 +232,7 @@ tr {
 }
 
 .meno-project {
-   background-color:white;
+   background-color: white;
    max-width: 72pc;
    height: max-content;
    margin: auto;
@@ -240,8 +240,8 @@ tr {
 }
 
 
-.meno-project2{
-  max-width: 100%;
+.meno-project2 {
+   max-width: 100%;
    /* margin-top: 30px; */
    margin-left: 0px;
    background-color: #333;
@@ -264,13 +264,13 @@ tr {
    outline: 1px solid white;
 }
 
-.best-link-meno{
+.best-link-meno {
    position: absolute;
    top: 45px;
-   left:150px;
+   left: 150px;
 }
 
-.foter-page{
+.foter-page {
    background-color: #333;
    max-width: 100%;
    height: 120px;
@@ -301,16 +301,17 @@ tr {
    font-family: 'samim';
 }
 
-.foter-page button::before{
+.foter-page button::before {
    content: ' - ';
 }
+
 .foter-page button::after {
    content: ' -';
 }
 
 
-.foter-page button:hover{
-   color:#00BFFF;
+.foter-page button:hover {
+   color: #00BFFF;
 }
 
 .fa-chevron-down {
@@ -318,22 +319,32 @@ tr {
    visibility: hidden;
 }
 
-#smal-other:hover .fa-chevron-down{
+#smal-other:hover .fa-chevron-down {
    visibility: visible;
 }
 
-.meno-project img{
+.meno-project img {
    transition: 0.4s;
 }
 
-.meno-project2 img:hover{
+.meno-project2 img:hover {
    transform: rotate(180deg);
    transition: 0.5s;
 }
 
+
 @media screen and (max-width:519px) {
    .progressss {
       width: 300px;
+   }
+
+   .meno-project2 a {
+      font-size: 15px;
+   }
+
+
+   .about {
+      font-size: 15px;
    }
 
 }
