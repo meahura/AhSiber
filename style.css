@@ -105,6 +105,7 @@ li.dropdown {
    outline: 3px solid green;
    outline-offset: 10px;
    transition: 0.4s;
+
 }
 
 #photo-me:hover {
@@ -148,7 +149,6 @@ li.dropdown {
 
    border-left: 20px solid #333;
 }
-
 
 .talk-its-me {
    font-size: 25px;
@@ -270,7 +270,6 @@ tr {
    left:150px;
 }
 
-
 .foter-page{
    background-color: #333;
    max-width: 100%;
@@ -307,6 +306,29 @@ tr {
 }
 .foter-page button::after {
    content: ' -';
+}
+
+
+.foter-page button:hover{
+   color:#00BFFF;
+}
+
+.fa-chevron-down {
+   font-size: small;
+   visibility: hidden;
+}
+
+#smal-other:hover .fa-chevron-down{
+   visibility: visible;
+}
+
+.meno-project img{
+   transition: 0.4s;
+}
+
+.meno-project2 img:hover{
+   transform: rotate(180deg);
+   transition: 0.5s;
 }
 
 @media screen and (max-width:519px) {
