@@ -24,8 +24,8 @@ body {
    justify-content:center;
    background-color: #f4f4f4;
    max-width: 95pc;
-   height: 700px;
    margin: auto;
+   margin-top: 10px;
 }
 
 
@@ -45,7 +45,6 @@ body {
    height: 200px;
    margin-left: 25px;
 }
-
 
 .Bold-Text {
    font-family: 'peyda-bold';
@@ -92,4 +91,10 @@ body {
    position: absolute;
    bottom: 10px;
    right: 10px;
+}
+
+
+.with-for-4-item {
+   color: gray;
+   margin-top: 50px;
 }
