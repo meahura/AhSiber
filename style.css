@@ -92,9 +92,7 @@ li.dropdown {
    width: 100%;
    height: 500px;
    background-size: cover;
-
    position: relative;
-
    transition: 0.4s;
 }
 
@@ -273,13 +271,11 @@ tr {
 .foter-page {
    background-color: #333;
    max-width: 100%;
-   height: 120px;
+   height: 100%;
    margin-top: 30px;
-
-   display: flex;
    flex-direction: row;
    flex-direction: wrap;
-
+   display: flex;
    justify-content: center;
    align-items: center;
    align-content: space-around;
