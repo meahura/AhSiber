@@ -2,16 +2,12 @@
 
 @font-face {
    font-family: 'samim-Bold';
-   src: url('./font/Samim-Bold.ttf') format('truetype');
-   src: url('./font/Samim-Bold.eot') format('eot');
-   src: url('./font/Samim-Bold.woff') format('woff');
+   src: url('./vazir/Vazir-Bold.ttf') format('truetype');
 }
 
 @font-face {
    font-family: 'samim';
-   src: url('./font/Samim.ttf') format('truetype');
-   src: url('./font/Samim.eot') format('eot');
-   src: url('./font/Samim.woff') format('woff');
+   src: url('./vazir/Vazir-Medium.ttf') format('truetype');
 }
 
 body {
