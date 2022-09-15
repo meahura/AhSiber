@@ -157,15 +157,14 @@ body {
 
 label .menu {
    position: absolute;
-   right: -100px;
-   top: -100px;
+   right: 0px;
+   top: -92px;
    z-index: 100;
-   width: 200px;
+   width: 100px;
    height: 200px;
-   background: #f5f5f5;
    border-radius: 50% 50% 50% 50%;
    transition: .5s ease-in-out;
-   box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+   box-shadow: 0 0 0 0 #f5f5f5, 0 0 0 0 #f5f5f5;
    cursor: pointer;
 }
 
@@ -206,10 +205,10 @@ label ul{
 }
 
 /* ایجاد انیمیشن حرکت صفحه سفید و نمایش آیتم های منو */
-label input:checked+.menu{
+/* label input:checked+.menu{
    box-shadow: 0 0 0 100vw #f5f5f5, 0 0 0 100vh #f5f5f5;
    border-radius: 0;
-}
+} */
 
 /*تغییر زاویه  علامت نشانگر منو*/
 label input:checked+.menu .hamburger {
