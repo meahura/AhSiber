@@ -80,9 +80,15 @@ body {
 }
 
 
+.styleshet-boxing:hover .Bold-Text{color: white !important;}
+.styleshet-boxing:hover .text-sloid{color: white !important;}
+.styleshet-boxing:hover .clock-text{color: white !important;}
+
+
 .styleshet-boxing:hover {
    transform: scale(1.050);
    transition: 0.3s;
+   background-color: #14213D;
 }
 
 .clock-text{
