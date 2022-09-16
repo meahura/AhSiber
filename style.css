@@ -26,7 +26,6 @@ body {
    margin: 0px;
 }
 
-
 footer {
    color: white;
    padding: 15px;
@@ -149,7 +148,6 @@ ul li {
    text-decoration: none;
    list-style: none;
 }
-
 body {
    line-height: 2;
    overflow-x: hidden;
@@ -397,6 +395,27 @@ img{
       }
 
 
+.about-working{
+   background-color: #333;
+   color: white;
+   display: flex;
+   flex-wrap: wrap;
+   margin: 30px;
+   justify-content: space-evenly;
+   padding: 30px;
+}
+
+p .progressss{
+   background-color: white;
+   width: 500px;
+   padding: 0px;
+   margin: 10px auto;
+   border: none;
+
+}
+
+
+
 @media screen and (max-width:630px) {
    .all{
       flex-direction: column;
@@ -404,5 +423,9 @@ img{
 
    .flex-box{
       max-width:300px;
+   }
+
+   .progressss {
+      max-width: 150px;
    }
 }
