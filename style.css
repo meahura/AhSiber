@@ -414,9 +414,11 @@ p .progressss{
 
 }
 p progress::-webkit-progress-bar{
+   background-color: white;
+}
+p progress::-webkit-progress-value{
    background-color: #1da1f2;
 }
-
 
 
 @media screen and (max-width:630px) {
