@@ -400,8 +400,8 @@ img{
    color: white;
    display: flex;
    flex-wrap: wrap;
-   margin: 30px;
-   justify-content: space-evenly;
+   margin: 0px;
+   justify-content: space-around;
    padding: 30px;
 }
 
@@ -412,6 +412,9 @@ p .progressss{
    margin: 10px auto;
    border: none;
 
+}
+p progress::-webkit-progress-bar{
+   background-color: #1da1f2;
 }
 
 
