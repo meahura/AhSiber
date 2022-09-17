@@ -17,7 +17,7 @@
             <input type='checkbox'>
             <span class='menu'> <span class='hamburger'></span> </span>
             <ul>
-               <a href="http://github.com/AhSiber"> <i class="fa-brands fa-github"></i> </a>
+               <a href="http://github.com/AhSiber"><i class="fa-brands fa-github"></i></a>
                <a href="https://twitter.com/AhSiber"> <i class="fa-brands fa-twitter"></i> </a>
                <a href="http://www.youtube.com/channel/UC7bC5Py8F7LAZBrGKz7gfww"> <i class="fa-brands fa-youtube"></i> </a>
                <a href="tg://join?invite=9U1W6UaxbaU1N2Nh"><i class="fa-brands fa-telegram"></i> </a>
@@ -27,7 +27,7 @@
          <p class="say-hello">سلام به وبسایت من خوش آمدید ، منتظر چی هستی ؟ اسکرول کن.</p>
 
          <div class="all" >
-         <div class="flex-box">
+            <div class="flex-box">
             <div class="item-flex2" title="انگار خیلی به اطلاعات شخصی من علاقه داری ها (((:">اطلاعات شخصی ⬅</div>
             <div class="item-flex3">17 سالمه و در استان کرمانشاه زندگی میکنم (:
                و میشه گفت به سریال های علمی تخیلی و همچین برنامه نویسی وب علاقه دارم. </div>
@@ -37,7 +37,6 @@
             <div class="item-flex3"> من اهورا هستم ، بَرنامَه نویسی میکُنم و به زندگیم اَدامه میدم! و همیشه درحال یادگیری چیز های هستم که دوست دارم و درسمو ادامه میدم که یک بَرنامَه نویس حرفه ای بشم🤹 </div>
          </div>
       </div>
-
       <div class="about-working">
          <p class="html-and-css">HTML & CSS  <progress class="progressss" value="90" max="100"></progress></p>
          </label>
@@ -57,7 +56,6 @@
 <!--  -->
 <p id="artical-me">مقالات برتر🥇</p>
 <div class="slideshow-container">
-
    <a href="https://virgool.io/Rocket/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D9%85%D8%AE%D9%81%DB%8C-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85-%EF%B8%8F-ksgetkutagde">
    <div class="mySlides1">
      <img src="https://files.virgool.io/upload/users/649179/posts/ksgetkutagde/1rre9yy5kvgs.png" style="width:100%">
@@ -85,31 +83,9 @@
    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
  </div>
- <script>
-   var slideIndex = [1,1];
-   var slideId = ["mySlides1", "mySlides2"]
-   showSlides(1, 0);
-   showSlides(1, 1);
-
-   function plusSlides(n, no) {
-     showSlides(slideIndex[no] += n, no);
-   }
-
-   function showSlides(n, no) {
-     var i;
-     var x = document.getElementsByClassName(slideId[no]);
-     if (n > x.length) {slideIndex[no] = 1}
-     if (n < 1) {slideIndex[no] = x.length}
-     for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-     }
-     x[slideIndex[no]-1].style.display = "block";
-   }
-   </script>
-
+ <script src="./slider.js"></script>
 <footer>
-   &#169;   کُپی برداری از وبسایت در صورتی مجاز است که لینک مخزن در این قسمت قرار گیرد.
+   &#169;کُپی برداری از وبسایت در صورتی مجاز است که لینک مخزن در این قسمت قرار گیرد.
 </footer>
-
 </body>
 </html>

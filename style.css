@@ -420,7 +420,6 @@ p progress::-webkit-progress-value{
    background-color: #1da1f2;
 }
 
-
 @media screen and (max-width:630px) {
    .all{
       flex-direction: column;
