@@ -26,6 +26,15 @@ body {
    margin: 0px;
 }
 
+
+.header-maining a{
+   color: #ef394e !important;
+   text-decoration: none;
+   font-family: 'bold';
+   text-align: center;
+   display: block;
+}
+
 footer {
    color: white;
    padding: 15px;
@@ -156,7 +165,7 @@ body {
 label .menu {
    position: absolute;
    right: 0px;
-   top: -92px;
+   top: -90px;
    z-index: 100;
    width: 100px;
    height: 200px;
