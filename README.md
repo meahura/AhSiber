@@ -65,4 +65,4 @@
 <b>
 اموزش دادن</b> : خوب آموزش میدم البته اگر شرایط درستش مهیا باشه.
 
-[![My Skills](https://skillicons.dev/icons?i=py,twitter,vim,visualstudio,vscode,php,ps,mysql,md,linkedin,linux,instagram,html,css,git,figma,django,bots,bash,atom)]()
+مهارت ها : [![My Skills](https://skillicons.dev/icons?i=py,twitter,vim,visualstudio,vscode,php,ps,mysql,md,linkedin,linux,instagram,html,css,git,figma,django,bots,bash,atom)]()
