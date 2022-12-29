@@ -3,4 +3,4 @@ Oh, I understand, I'm a good programmer, you can see my projects and use them if
 <h3>Why are you programming?</h3> 
 Personal interest 
 <h3>I have another question.</h3>
-This is my temporary email : <a href="codefa@proton.me">codefa@proton.me</a> , send it to me.
+This is my temporary email, send it to me.
